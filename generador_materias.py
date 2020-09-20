@@ -10,7 +10,6 @@ def add_materia():
     print("4.- Thursday")
     print("5.- Friday")
     print("6.- Satardy")
-    
 
     pass
 
