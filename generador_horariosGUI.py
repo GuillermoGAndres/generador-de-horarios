@@ -13,7 +13,7 @@ class GeneradorHorariosGUI:
         self.raiz.title("Generador de horarios")
         self.raiz.config(bg='#254d74')
         self.hacerHorarioBtton = Button(self.raiz, text = "Hacer horario",
-                command = self.hacerHorarioListenner,
+                command = self.hacerHorarioListener,
                 bg = "#4CAF50",
                 activebackground = '#45a049',
                 font = 'Verdana 13 bold ',
@@ -40,7 +40,7 @@ class GeneradorHorariosGUI:
                 x=int(self.width)/2 - 210, y=int(self.height)/2)
         self.raiz.mainloop()
 
-    def hacerHorarioListenner(self):
+    def hacerHorarioListener(self):
         self.raiz.destroy()
         Menu()
 
